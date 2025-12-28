@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>UCM Page 04 - Procurement Audit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UCM Page 04-B - Revenue Infrastructure & Compliance</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
     <style>
@@ -10,54 +11,135 @@
         body { margin: 0; background-color: var(--midnight); font-family: 'Montserrat', sans-serif; color: var(--silver); }
         .page {
             width: 210mm; height: 297mm; margin: 0 auto;
-            border: 15px double var(--gold); padding: 10mm; position: relative;
-            box-sizing: border-box; display: flex; flex-direction: column; font-size: 11px;
+            border: 12px double var(--gold); padding: 5mm; position: relative;
+            box-sizing: border-box; display: flex; flex-direction: column; overflow: hidden;
         }
-        h1 { font-family: 'Playfair Display', serif; color: var(--gold); text-transform: uppercase; }
-        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
-        th { background: var(--gold); color: black; padding: 6px; border: 1px solid var(--gold); text-transform: uppercase; font-weight: 900; font-size: 9px; }
-        td { border: 1px solid rgba(197, 164, 0, 0.3); padding: 6px; background: rgba(255,255,255,0.03); }
-        .header-strip { background: linear-gradient(90deg, var(--gold) 0%, transparent 100%); color: black; font-weight: 900; padding: 4px 10px; margin: 12px 0 5px 0; text-transform: uppercase; font-size: 10px; }
-        .footer-tab { position: absolute; bottom: 0; right: 0; background: var(--gold); color: black; padding: 5px 20px; font-weight: 900; font-size: 14px; }
+        h1 { font-family: 'Playfair Display', serif; color: var(--gold); text-transform: uppercase; line-height: 0.9; }
+        .header-strip { background: linear-gradient(90deg, var(--gold) 0%, transparent 100%); color: black; font-weight: 900; padding: 4px 8px; margin: 10px 0 5px 0; text-transform: uppercase; font-size: 10px; letter-spacing: 1px; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 10px; }
+        th { background: var(--gold); color: black; padding: 4px; border: 1px solid var(--gold); text-transform: uppercase; font-weight: 900; font-size: 9px; text-align: left; }
+        td { border: 1px solid rgba(197, 164, 0, 0.3); padding: 5px; background: rgba(255,255,255,0.02); font-size: 10px; color: #e5e5e5; }
+        .real-cost { color: var(--gold); font-weight: 900; }
+        .footer-tab { position: absolute; bottom: 0; right: 0; background: var(--gold); color: black; padding: 4px 15px; font-weight: 900; font-size: 12px; }
+        .spec-tag { font-size: 8px; color: #aaa; display: block; margin-top: 2px; }
     </style>
 </head>
 <body>
     <div class="page">
-        <h1 class="text-3xl font-black border-b-4 border-gold pb-2 mb-2 tracking-tighter text-white">Institutional Procurement Audit</h1>
-        <p class="text-gold font-black uppercase text-[10px] tracking-[4px] mb-4">Capital Allocation Budget: $3,000.00</p>
-        
-        <div class="header-strip">I. Commercial Revenue Machinery</div>
+        <h1 class="text-4xl font-black border-b-4 border-gold pb-2 mb-2 tracking-tighter text-white uppercase">Revenue Infrastructure</h1>
+        <p class="text-gold font-black uppercase text-[9px] tracking-[5px] mb-4 italic underline">Technical Procurement Annex | Culinary Compliance & Merchandising Audit</p>
+
+        <div class="header-strip">IV-A. High-Volume Production Machinery</div>
         <table>
-            <tr><th>Asset Item</th><th>Specification</th><th>Cost</th></tr>
-            <tr><td>8oz Theater Kettle</td><td>Industrial Stainless Hub</td><td>$180.00</td></tr>
-            <tr><td>Glitter-Cloud Spinner</td><td>High-Speed Commercial Cotton Candy</td><td>$160.00</td></tr>
-            <tr><td>Dual-Bowl Slushie Unit</td><td>24L Insulated Cooling Unit</td><td>$199.00</td></tr>
-            <tr><td>12L Dual-Basket Fryer</td><td>Electric High-Volume Fryer</td><td>$120.00</td></tr>
-            <tr><td>Triple Beverage Array</td><td>3x 5-Gallon Acrylic Dispensers</td><td>$95.00</td></tr>
+            <thead>
+                <tr><th>Asset</th><th>Unit Specification</th><th>Capacity</th><th>Cost</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>SYINTAO Slushie Hub</td>
+                    <td>88oz Liquid Reservoir / No-Ice Required / LED Display<br><span class="spec-tag">Verified: SYINTAO Amazon Store</span></td>
+                    <td>Industrial</td>
+                    <td class="real-cost">$165.00</td>
+                </tr>
+                <tr>
+                    <td>Ajgvq Cotton Candy</td>
+                    <td>1000W Professional Motor / SS Bowl / Safety Cover<br><span class="spec-tag">Verified: Ajgvq Amazon Store</span></td>
+                    <td>Commercial</td>
+                    <td class="real-cost">$110.00</td>
+                </tr>
+                <tr>
+                    <td>8oz Theater Kettle</td>
+                    <td>Stainless Steel Agitator / Internal Heat Lamp<br><span class="spec-tag">Traditional Cinema-Grade Popcorn Hub</span></td>
+                    <td>160 Cups/hr</td>
+                    <td class="real-cost">$145.00</td>
+                </tr>
+                <tr>
+                    <td>12L Dual Well Fryer</td>
+                    <td>Double Basket / Independent Thermostat Control<br><span class="spec-tag">High-Volume: Funnel Fries & Mozzarella Sticks</span></td>
+                    <td>12-Liter</td>
+                    <td class="real-cost">$100.00</td>
+                </tr>
+            </tbody>
         </table>
 
-        <div class="header-strip">II. Infrastructure & Compliance</div>
+        <div class="header-strip">IV-B. Culinary Compliance & Station Precision</div>
         <table>
-            <tr><th>Item</th><th>Purpose</th><th>Cost</th></tr>
-            <tr><td>20ft Inflatable Screen</td><td>Exhibition Grade Visual Anchor</td><td>$150.00</td></tr>
-            <tr><td>FM Master Transmitter</td><td>Digital Wireless Audio Broadcast</td><td>$115.00</td></tr>
-            <tr><td>HD Projector Mount</td><td>Precision Rigging</td><td>$80.00</td></tr>
-            <tr><td>LED Runway Lighting</td><td>200ft Perimeter Safety System</td><td>$125.00</td></tr>
-            <tr><td>Movie Exhibition License</td><td>Single Title Public Performance Rights</td><td>$350.00</td></tr>
-            <tr><td>Professional Liability</td><td>Pilot Event Insurance Coverage</td><td>$250.00</td></tr>
+            <thead>
+                <tr><th>Component</th><th>Strategic Utility</th><th>Quantity</th><th>Cost</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Precision Dial Thermometers</td>
+                    <td>Safety Monitoring: Fry Station, Candy Hub, Backup Station</td>
+                    <td>3 Units</td>
+                    <td class="real-cost">$30.00</td>
+                </tr>
+                <tr>
+                    <td>Hotel Steam Pans</td>
+                    <td>Commercial Stainless Stackable (5.91" Depth)<br><span class="spec-tag">Hot-Holding: Smoked Chicken & Elote Corn</span></td>
+                    <td>4-Pack</td>
+                    <td class="real-cost">$68.00</td>
+                </tr>
+                <tr>
+                    <td>80oz Display Jars</td>
+                    <td>Willinglong Clear Countertop Canisters<br><span class="spec-tag">High-Margin Toppings Bar Merchandising</span></td>
+                    <td>8 Jars</td>
+                    <td class="real-cost">$58.00</td>
+                </tr>
+            </tbody>
         </table>
 
-        <div class="header-strip">III. Deployment Reserve</div>
+        <div class="header-strip">VI-A. Multi-Tiered Packaging (Strategic Volume)</div>
         <table>
-            <tr><td>Marketing Saturation</td><td>Social Media & Physical Signage Print</td><td>$116.00</td></tr>
-            <tr><td>Working Capital</td><td>Initial Inventory Buffer (Kernels/Sugar/Cups)</td><td>$1,060.00</td></tr>
+            <thead>
+                <tr><th>Packaging Tier</th><th>Menu Application</th><th>Quantity</th><th>Cost</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1lb Checkered Boats</td>
+                    <td>Side Dish Service: Elote, Fries, Fried Okra</td>
+                    <td>500 Count</td>
+                    <td class="real-cost">$35.99</td>
+                </tr>
+                <tr>
+                    <td>2lb Checkered Boats</td>
+                    <td>Full Meal Service: Smoked Chicken Baskets</td>
+                    <td>250 Count</td>
+                    <td class="real-cost">$22.99</td>
+                </tr>
+                <tr>
+                    <td>2oz TashiBox Portions</td>
+                    <td>Sauce/Garnish Prep: Cotija, Crema, Spices</td>
+                    <td>200 Count</td>
+                    <td class="real-cost">$12.99</td>
+                </tr>
+                <tr>
+                    <td>Duro White Bags (2/4/6#)</td>
+                    <td>Popcorn, Bulk Candy, Family-Size To-Go Bundles</td>
+                    <td>1500 Count</td>
+                    <td class="real-cost">$128.45</td>
+                </tr>
+                <tr>
+                    <td>PET Beverage Suite</td>
+                    <td>Cup Array (Small-XL), Lids, Straws, Ice Bins</td>
+                    <td>Bulk Lot</td>
+                    <td class="real-cost">$150.00</td>
+                </tr>
+            </tbody>
         </table>
 
-        <div class="mt-auto border-4 border-gold p-6 text-center bg-gold/10">
-            <p class="text-sm font-black text-white uppercase tracking-[4px]">Audit Confirmation</p>
-            <p class="text-5xl font-black text-white">$3,000.00</p>
+        <div class="mt-auto p-4 border-t-2 border-gold flex justify-between items-end">
+            <div>
+                <p class="text-gold font-bold text-xs uppercase">Procurement Status:</p>
+                <p class="text-white text-lg font-black uppercase">Verified Market Prices</p>
+            </div>
+            <div class="text-right">
+                <p class="text-gold font-bold text-xs uppercase">Revenue Infrastructure Total:</p>
+                <p class="text-white text-3xl font-black">$1,026.42</p>
+            </div>
         </div>
-        <div class="footer-tab">PAGE 04</div>
+
+        <div class="footer-tab">PAGE 04-B</div>
     </div>
 </body>
 </html>
