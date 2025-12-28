@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UCM Page 03 - Procurement Audit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root { --midnight: #01040a; --gold: #c5a400; --silver: #ffffff; }
+        body { margin: 0; background-color: var(--midnight); font-family: 'Montserrat', sans-serif; color: var(--silver); }
+        .page {
+            width: 210mm; height: 297mm; margin: 0 auto;
+            border: 15px double var(--gold); padding: 10mm; position: relative;
+            box-sizing: border-box; display: flex; flex-direction: column; font-size: 11px;
+        }
+        h1 { font-family: 'Playfair Display', serif; color: var(--gold); text-transform: uppercase; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th { background: var(--gold); color: black; padding: 6px; border: 1px solid var(--gold); text-transform: uppercase; font-weight: 900; font-size: 9px; }
+        td { border: 1px solid rgba(197, 164, 0, 0.3); padding: 6px; background: rgba(255,255,255,0.03); }
+        .header-strip { background: linear-gradient(90deg, var(--gold) 0%, transparent 100%); color: black; font-weight: 900; padding: 4px 10px; margin: 12px 0 5px 0; text-transform: uppercase; font-size: 10px; }
+        .footer-tab { position: absolute; bottom: 0; right: 0; background: var(--gold); color: black; padding: 5px 20px; font-weight: 900; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <h1 class="text-3xl font-black border-b-4 border-gold pb-2 mb-2 tracking-tighter text-white">Institutional Procurement Audit</h1>
+        <p class="text-gold font-black uppercase text-[10px] tracking-[4px] mb-4">Capital Deployment Target: $3,000.00</p>
+        
+        <div class="grid grid-cols-3 gap-2 bg-white/5 p-3 border border-gold mb-4 text-center">
+            <div class="text-[8px] font-bold">OWNER CONTRIBUTION:<br><span class="text-gold uppercase">Fangor Smart Projector</span></div>
+            <div class="text-[8px] font-bold">OWNER CONTRIBUTION:<br><span class="text-gold uppercase">Canon T17 Rebel Kit</span></div>
+            <div class="text-[8px] font-bold">OWNER CONTRIBUTION:<br><span class="text-gold uppercase">Southern Smokehouse Grill</span></div>
+        </div>
+
+        <div class="header-strip">I. Commercial Revenue Machinery</div>
+        <table>
+            <tr><th>Asset Item</th><th>Specification</th><th>Cost</th></tr>
+            <tr><td>8oz Theater Kettle</td><td>Stainless Industrial Hub</td><td>$180.00</td></tr>
+            <tr><td>Glitter-Cloud Spinner</td><td>High-Speed Commercial</td><td>$160.00</td></tr>
+            <tr><td>Dual-Bowl Slushie Unit</td><td>24L Insulated Capacity</td><td>$199.00</td></tr>
+            <tr><td>12L Dual-Basket Fryer</td><td>Electric High-Volume</td><td>$120.00</td></tr>
+            <tr><td>Triple Beverage Array</td><td>3x 5-Gallon Acrylic</td><td>$95.00</td></tr>
+        </table>
+
+        <div class="header-strip">II. Infrastructure & Compliance</div>
+        <table>
+            <tr><th>Item</th><th>Purpose</th><th>Cost</th></tr>
+            <tr><td>20ft Inflatable Screen</td><td>Pro-Exhibition Grade Anchor</td><td>$150.00</td></tr>
+            <tr><td>FM Master Transmitter</td><td>Digital Wireless Audio</td><td>$115.00</td></tr>
+            <tr><td>HD Projector Mount</td><td>Adjustable Precision Rig</td><td>$80.00</td></tr>
+            <tr><td>LED Runway Lighting</td><td>200ft Perimeter Safety</td><td>$125.00</td></tr>
+            <tr><td>Movie Exhibition License</td><td>Single Title Public Rights</td><td>$350.00</td></tr>
+            <tr><td>Professional Liability</td><td>Pilot Event Umbrella Policy</td><td>$250.00</td></tr>
+        </table>
+
+        <div class="header-strip text-white">III. Marketing & Outreach</div>
+        <table>
+            <tr><td>Marketing Deployment</td><td>Saturation Campaign Strategy</td><td>$116.00</td></tr>
+        </table>
+
+        <div class="mt-auto border-4 border-gold p-6 text-center bg-gold/10">
+            <p class="text-sm font-black text-white uppercase tracking-[4px]">Total Audited Investment</p>
+            <p class="text-5xl font-black text-white">$3,000.00</p>
+        </div>
+        <div class="footer-tab">PAGE 03</div>
+    </div>
+</body>
+</html>
