@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UCM Page 05 - The Opportunity</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root { --midnight: #01040a; --gold: #c5a400; --silver: #ffffff; }
+        body { margin: 0; background-color: var(--midnight); font-family: 'Montserrat', sans-serif; color: var(--silver); }
+        .page {
+            width: 210mm; height: 297mm; margin: 0 auto;
+            border: 15px double var(--gold); padding: 15mm; position: relative;
+            box-sizing: border-box; display: flex; flex-direction: column;
+        }
+        h1 { font-family: 'Playfair Display', serif; color: var(--gold); text-transform: uppercase; }
+        .card { background: rgba(255,255,255,0.05); border: 1px solid rgba(197, 164, 0, 0.4); padding: 25px; }
+        .footer-tab { position: absolute; bottom: 0; right: 0; background: var(--gold); color: black; padding: 5px 20px; font-weight: 900; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <h1 class="text-4xl font-black border-b-4 border-gold pb-2 mb-8 tracking-tighter">Market Opportunity</h1>
+        
+        <div class="mb-10">
+            <h2 class="text-gold font-black uppercase text-sm mb-2 tracking-[4px]">The Problem: Entertainment Deserts</h2>
+            <p class="text-sm leading-relaxed">The Caledonia/Columbus area lacks premium, family-accessible "third spaces" that combine high-tier entertainment with diverse culinary options. Traditional theaters are fixed, expensive, and disconnected from the community.</p>
+        </div>
+
+        <div class="grid grid-cols-2 gap-8">
+            <div class="card">
+                <h3 class="text-white font-black uppercase text-xs mb-4 border-b border-gold/50 pb-2">The Solution</h3>
+                <p class="text-[12px] leading-relaxed text-slate-300">UCM’s "Pop-Up Pasture" model brings the theater directly to the people. By utilizing mobile infrastructure and FM transmission, we eliminate the overhead of traditional venues while creating a unique, outdoor atmosphere that captive audiences crave.</p>
+            </div>
+            <div class="card">
+                <h3 class="text-white font-black uppercase text-xs mb-4 border-b border-gold/50 pb-2">Economic Stimulus</h3>
+                <p class="text-[12px] leading-relaxed text-slate-300">We don't just sell tickets; we create marketplaces. Every UCM event acts as an incubator for local food trucks and vendors, keeping capital within the 662 area code and fostering local growth.</p>
+            </div>
+        </div>
+
+        <div class="mt-auto p-10 bg-gold/5 border-2 border-gold text-center italic">
+            <p class="text-xl font-serif text-white">"We are solving the entertainment vacuum by leveraging mobile technology and local land."</p>
+        </div>
+
+        <div class="footer-tab">PAGE 05</div>
+    </div>
+</body>
+</html>
